@@ -27,11 +27,7 @@ public static double areaDiff(Shape s1, Shape s2) {
 
 
 
-    //Rechteck - Dreieck//
-public static double areaDiff(Rectangle r, Circle c) {
-    return r.area() - c.area();
-    
-}
+
 
     public static void ausgabe(String outStr ){       
         System.out.println(outStr);
