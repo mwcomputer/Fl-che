@@ -10,13 +10,17 @@ public class App {
        ausgabe("Fläche Dreieck: " + triangle.area());
        ausgabe("-----Differenzen-----");
        ausgabe("Diff. r/t:" + areaDiff(rectangle, triangle));
-
+       ausgabe("Diff. r/c: " + areaDiff(rectangle, circle));
 
     }
 
     //Rechteck - Dreieck//
 public static double areaDiff(Rectangle r, Triangle t) {
     return r.area() - t.area();
+}
+    //Rechteck - Dreieck//
+public static double areaDiff(Rectangle r, Circle c) {
+    return r.area() - c.area();
     
 }
 
