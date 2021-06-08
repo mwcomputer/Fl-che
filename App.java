@@ -8,7 +8,8 @@ public class App {
        ausgabe("Fläche Kreis: " + circle.area());
        ausgabe("fläche Rechteck: " + rectangle.area());
        ausgabe("Fläche Dreieck: " + triangle.area());
-
+       ausgabe("-----Differenzen-----");
+       ausgabe("Diff. r/t:" + areaDiff(rectangle, triangle));
 
 
     }
