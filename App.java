@@ -10,7 +10,14 @@ public class App {
        ausgabe("Fläche Dreieck: " + triangle.area());
 
 
+
     }
+
+    //Rechteck - Dreieck//
+public static double areaDiff(Rectangle r, Triangle t) {
+    return r.area() - t.area();
+    
+}
 
     public static void ausgabe(String outStr ){       
         System.out.println(outStr);
